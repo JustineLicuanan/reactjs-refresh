@@ -11,4 +11,5 @@ module.exports = {
   semi: true,
   jsxSingleQuote: false,
   bracketSameLine: false,
+  plugins: [require('prettier-plugin-tailwindcss')],
 };
